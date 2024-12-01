@@ -17,7 +17,7 @@ import asknavidrome.media_queue as queue
 import asknavidrome.controller as controller
 
 # Create web service
-app = Flask(__name__)
+/music/app = Flask(__name__)
 
 # Create skill object
 sb = SkillBuilder()
