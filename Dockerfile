@@ -26,7 +26,7 @@ COPY --from=build /opt/asknavidrome/skill /opt/asknavidrome/
 WORKDIR /opt/asknavidrome
 
 # Activate Python Virtual Environment
-ENV PATH="/opt/env/bin:$PATH"
+ENV PATH="/opt/env/bin:$PATH" NAVI_USER= NAVI_PASS= NAVI_URL= NAVI_API_PATH=/rest NAVI_API_VER=1.16.1 NAVI_SKILL_ID= NAVI_DEBUG=0
 
 EXPOSE 5000
 
